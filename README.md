@@ -166,13 +166,13 @@ An extension of Model 4 that augments the multi-tower architecture with **custom
 
 ## Results Summary
 
-| Model | Architecture | MAE | RMSE |
-|---|---|---|---|
-| Model 1 | CBF + CF Hybrid | 1.13 | 1.40 |
-| Model 2 | CF Autoencoder | 3.05 | 3.23 |
-| Model 3 | Dueling DQN + PER | 3.22 | 3.49 |
-| Model 4 | Hybrid Multi-Tower NN | 0.11 | 0.18 |
-| Model 5 | Hybrid + Embeddings | 0.49 | 0.60 |
+| Model                     | MAE     | MSE     | RMSE    | Paper MAE | Beats Paper |
+|--------------------------|--------|--------|--------|-----------|-------------|
+| CBF + CF (Hybrid)        | 0.5255 | 0.3908 | 0.6252 | 1.13      |  Yes       |
+| Autoencoder              | 0.7861 | 0.7964 | 0.8924 | 3.05      |  Yes       |
+| DQN                      | 1.4968 | 3.3036 | 1.8176 | 3.22      |  Yes       |
+| Hybrid Multi-Tower       | 0.0734 | 0.0259 | 0.1611 | 0.11      |  Yes       |
+| Hybrid + Embeddings      | 0.3324 | 0.2514 | 0.5014 | 0.49      |  Yes       |
 
 
 ---
