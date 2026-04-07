@@ -310,8 +310,6 @@ If you use this code or the dataset in your research, please cite the original p
 @dataset{presentation_advisor_data,
   author  = {Janvi Porwal},
   title   = {Presentation Advisor Data},
-  year    = {2024},
-  url     = {https://www.kaggle.com/datasets/janvijain96/presentation-advisor-data}
 }
 ```
 
