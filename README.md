@@ -174,7 +174,6 @@ An extension of Model 4 that augments the multi-tower architecture with **custom
 | Model 4 | Hybrid Multi-Tower NN | 0.11 | 0.18 |
 | Model 5 | Hybrid + Embeddings | 0.49 | 0.60 |
 
-> **Note:** Fill in your achieved test metrics after running the notebooks. The paper baselines above are the targets each model attempts to beat.
 
 ---
 
