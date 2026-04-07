@@ -166,13 +166,13 @@ An extension of Model 4 that augments the multi-tower architecture with **custom
 
 ## Results Summary
 
-| Model | Architecture | Test MAE | Test MSE | Test RMSE | Paper MAE | Paper RMSE |
-|---|---|---|---|---|---|---|
-| Model 1 | CBF + CF Hybrid | — | — | — | 1.13 | 1.40 |
-| Model 2 | CF Autoencoder | — | — | — | 3.05 | 3.23 |
-| Model 3 | Dueling DQN + PER | — | — | — | 3.22 | 3.49 |
-| Model 4 | Hybrid Multi-Tower NN | — | — | — | 0.11 | 0.18 |
-| Model 5 | Hybrid + Embeddings | — | — | — | 0.49 | 0.60 |
+| Model | Architecture | Paper MAE | Paper RMSE |
+|---|---|---|---|
+| Model 1 | CBF + CF Hybrid | 1.13 | 1.40 |
+| Model 2 | CF Autoencoder | 3.05 | 3.23 |
+| Model 3 | Dueling DQN + PER | 3.22 | 3.49 |
+| Model 4 | Hybrid Multi-Tower NN | 0.11 | 0.18 |
+| Model 5 | Hybrid + Embeddings | 0.49 | 0.60 |
 
 > **Note:** Fill in your achieved test metrics after running the notebooks. The paper baselines above are the targets each model attempts to beat.
 
