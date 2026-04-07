@@ -166,7 +166,7 @@ An extension of Model 4 that augments the multi-tower architecture with **custom
 
 ## Results Summary
 
-| Model | Architecture | Paper MAE | Paper RMSE |
+| Model | Architecture | MAE | RMSE |
 |---|---|---|---|
 | Model 1 | CBF + CF Hybrid | 1.13 | 1.40 |
 | Model 2 | CF Autoencoder | 3.05 | 3.23 |
